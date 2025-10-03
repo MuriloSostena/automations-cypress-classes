@@ -1,5 +1,5 @@
 # My Cypress Automation
-Este projeto utiliza Cypress para automatizar a feature de teste de login e update de cadastro de usuário.
+This project uses Cypress to automente the testtinf of a login feature and a user update feature. Cypress is a JavaScript-bases end-to-end testing framework that allows developers to write testes and execute the in a real browser.
 
 ## Instalation
 ```bash
