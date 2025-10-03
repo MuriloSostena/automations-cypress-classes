@@ -28,17 +28,17 @@ class MyInfoPage {
     }
 
     fillNationality() {
-        cy.get(this.selectorsList().dropDown).eq(0).click({force: true})
-        cy.get(':nth-child(27) > span').click({force: true})
-        cy.get(this.selectorsList().dropDown).eq(1).click({force: true})
-        cy.get(':nth-child(3) > span').click({force: true})
+        cy.get(this.selectorsList().dropDown).eq(0).click()
+        cy.get(':nth-child(27) > span').click()
+        cy.get(this.selectorsList().dropDown).eq(1).click()
+        cy.get(':nth-child(3) > span').click()
     }
               
     saveForm() {
         cy.get(this.selectorsList().submitButton).eq(0).click({force: true}) 
         cy.get('.oxd-toast-close')
     }
-    
+
 }
 
 export default MyInfoPage
