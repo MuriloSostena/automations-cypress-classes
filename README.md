@@ -1,5 +1,5 @@
 # My Cypress Automation
-This project uses Cypress to automente the testtinf of a login feature and a user update feature. Cypress is a JavaScript-bases end-to-end testing framework that allows developers to write testes and execute the in a real browser.
+This project uses Cypress to automente the testing of a login feature and a user update feature. Cypress is a JavaScript-bases end-to-end testing framework that allows developers to write testes and execute the in a real browser.
 
 ## Instalation
 ```bash
